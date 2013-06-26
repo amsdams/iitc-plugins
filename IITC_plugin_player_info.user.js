@@ -2,9 +2,9 @@
 // @id             iitc-plugin-player-info@superd
 // @name           IITC plugin: player info
 // @category       Highlighter
-// @version        0.1.0.0
+// @version        0.1.0.1
 // @namespace      https://github.com/jonatkins/ingress-intel-total-conversion
-// @updateURL      https://github.com/amsdams/iitc-plugins/raw/master/IITC_plugin_player_info.user.js
+// @updateURL      https://github.com/amsdams/iitc-plugins/raw/master/IITC_plugin_player_info.meta.js
 // @downloadURL    https://github.com/amsdams/iitc-plugins/raw/master/IITC_plugin_player_info.user.js
 // @description    [jonatkins-2013-06-12-162306] Uses the fill red of the portals, if portal has nick
 // @include        https://www.ingress.com/intel*
@@ -129,7 +129,7 @@ function wrapper() {
             fillColor: window.COLORS_LVL[level],
             fillOpacity: window.OPTIONS_RESONATOR_LINE_SELECTED.opacity
           });
-          return;
+          /*return;*/
         }
       });
     });
@@ -147,7 +147,7 @@ function wrapper() {
             fillColor: window.COLORS_MOD[mod.rarity],
             fillOpacity: window.OPTIONS_RESONATOR_LINE_SELECTED.opacity
           });
-          return;
+          /*return;*/
         }
       });
     });
