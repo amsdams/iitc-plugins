@@ -2,7 +2,7 @@
 // @id             iitc-plugin-player-info@superd
 // @name           IITC plugin: player info
 // @category       Highlighter
-// @version        0.1.0.1
+// @version        0.1.0.2
 // @namespace      https://github.com/jonatkins/ingress-intel-total-conversion
 // @updateURL      https://github.com/amsdams/iitc-plugins/raw/master/IITC_plugin_player_info.meta.js
 // @downloadURL    https://github.com/amsdams/iitc-plugins/raw/master/IITC_plugin_player_info.user.js
@@ -21,10 +21,11 @@ function wrapper() {
   /* use own namespace for plugin*/
   window.plugin.playerInfo = function () {};
   window.plugin.playerInfo.init = function () {
-    $(window).delegate('.nickname', 'click', function () {
-      var nik = $(this).text();
-      window.plugin.playerInfo.ownerPrompt(nik);
-    });
+      $(document).on('click', '.nickname', function() {
+        var nik = $(this).text();
+        window.plugin.playerInfo.ownerPrompt(nik);
+      });
+  
   };
   window.plugin.playerInfo.mods = {
     RES_SHIELD: 'Shield',
@@ -168,15 +169,19 @@ function wrapper() {
     window.plugin.playerInfo.init();
   };
   /* PLUGIN END */
-  if (window.iitcLoaded && typeof setup === 'function') {
-    setup();
-  } else {
-    if (window.bootPlugins) window.bootPlugins.push(setup);
-    else window.bootPlugins = [setup];
-  }
-} /* wrapper end */
-/* inject code into site context */
+ 
+if(window.iitcLoaded && typeof setup === 'function') {
+  setup();
+} else {
+  if(window.bootPlugins)
+    window.bootPlugins.push(setup);
+  else
+    window.bootPlugins = [setup];
+}
+} // wrapper end
+// inject code into site context
 var script = document.createElement('script');
-script.appendChild(document.createTextNode('(' + wrapper + ')();'));
-(document.body || document.head || document.documentElement)
-  .appendChild(script);
+script.appendChild(document.createTextNode('('+ wrapper +')();'));
+(document.body || document.head || document.documentElement).appendChild(script);
+
+
