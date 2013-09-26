@@ -1,10 +1,6 @@
 # coolclock.user.js
 
-## install link [coolclock.user.js](./coolclock.user.js "coolclock.user.js ")
-
-## preview image ![coolclock.user.png](./coolclock.user.png "coolclock.user.png ")
-
-## description from JS ![coolclock.user.png](./coolclock.user.png "coolclock.user.png ")
+## description from JS:
 
 	id:             iitc-plugin-coolclock@amsdams
 
@@ -30,13 +26,13 @@
 
 	grant:           none
 
+## install link: [coolclock.user.js](./coolclock.user.js "coolclock.user.js ")
+
+## preview image: ![coolclock.user.png](./coolclock.user.png "coolclock.user.png ")
+
 # player-portals.user.js
 
-## install link [player-portals.user.js](./player-portals.user.js "player-portals.user.js ")
-
-## preview image ![player-portals.user.png](./player-portals.user.png "player-portals.user.png ")
-
-## description from JS ![player-portals.user.png](./player-portals.user.png "player-portals.user.png ")
+## description from JS:
 
 	id:             iitc-plugin-player-portals@amsdams
 
@@ -62,13 +58,13 @@
 
 	grant:           none
 
+## install link: [player-portals.user.js](./player-portals.user.js "player-portals.user.js ")
+
+## preview image: ![player-portals.user.png](./player-portals.user.png "player-portals.user.png ")
+
 # portal-highlighter-missing-mods.user.js
 
-## install link [portal-highlighter-missing-mods.user.js](./portal-highlighter-missing-mods.user.js "portal-highlighter-missing-mods.user.js ")
-
-## preview image ![portal-highlighter-missing-mods.user.png](./portal-highlighter-missing-mods.user.png "portal-highlighter-missing-mods.user.png ")
-
-## description from JS ![portal-highlighter-missing-mods.user.png](./portal-highlighter-missing-mods.user.png "portal-highlighter-missing-mods.user.png ")
+## description from JS:
 
 	id:             iitc-plugin-highlight-portals-missing-mods@amsdams
 
@@ -94,13 +90,13 @@
 
 	grant:           none
 
+## install link: [portal-highlighter-missing-mods.user.js](./portal-highlighter-missing-mods.user.js "portal-highlighter-missing-mods.user.js ")
+
+## preview image: ![portal-highlighter-missing-mods.user.png](./portal-highlighter-missing-mods.user.png "portal-highlighter-missing-mods.user.png ")
+
 # portal-highlighter-missing-resonators-level-8.user.js
 
-## install link [portal-highlighter-missing-resonators-level-8.user.js](./portal-highlighter-missing-resonators-level-8.user.js "portal-highlighter-missing-resonators-level-8.user.js ")
-
-## preview image ![portal-highlighter-missing-resonators-level-8.user.png](./portal-highlighter-missing-resonators-level-8.user.png "portal-highlighter-missing-resonators-level-8.user.png ")
-
-## description from JS ![portal-highlighter-missing-resonators-level-8.user.png](./portal-highlighter-missing-resonators-level-8.user.png "portal-highlighter-missing-resonators-level-8.user.png ")
+## description from JS:
 
 	id:             iitc-plugin-highlight-portals-missing-resonators-level-8@amsdams
 
@@ -125,4 +121,8 @@
 	match:          http://www.ingress.com/intel*
 
 	grant:           none
+
+## install link: [portal-highlighter-missing-resonators-level-8.user.js](./portal-highlighter-missing-resonators-level-8.user.js "portal-highlighter-missing-resonators-level-8.user.js ")
+
+## preview image: ![portal-highlighter-missing-resonators-level-8.user.png](./portal-highlighter-missing-resonators-level-8.user.png "portal-highlighter-missing-resonators-level-8.user.png ")
 
