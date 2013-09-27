@@ -4,8 +4,8 @@
 // @category       Highlighter
 // @version        0.1.2.20130926.81348
 // @namespace      https://github.com/jonatkins/ingress-intel-total-conversion
-// @updateURL https://github.com/amsdams/iitc-plugins/blob/master/portal-highlighter-missing-resonators-level-8.user.js
-// @downloadURL https://github.com/amsdams/iitc-plugins/blob/master/portal-highlighter-missing-resonators-level-8.user.js
+// @updateURL https://raw.github.com/amsdams/iitc-plugins/master/portal-highlighter-missing-resonators-level-8.user.js
+// @downloadURL https://raw.github.com/amsdams/iitc-plugins/master/portal-highlighter-missing-resonators-level-8.user.js
 // @description    [local-2013-09-26-081348] highlight portals missing level 8 resonators
 // @include        https://www.ingress.com/intel*
 // @include        http://www.ingress.com/intel*

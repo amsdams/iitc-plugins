@@ -12,9 +12,9 @@
 
 	namespace: 	     https://github.com/jonatkins/ingress-intel-total-conversion
 
-	updateurl: https://github.com/amsdams/iitc-plugins/blob/master/coolclock.user.js
+	updateurl: https://raw.github.com/amsdams/iitc-plugins/master/coolclock.user.js
 
-	dowloadurl: https://github.com/amsdams/iitc-plugins/blob/master/coolclock.user.js
+	dowloadurl: https://raw.github.com/amsdams/iitc-plugins/master/coolclock.user.js
 
 	description:    [local-2013-09-26-081348] displays ticking clock 
 
@@ -46,9 +46,9 @@
 
 	namespace: 	     https://github.com/jonatkins/ingress-intel-total-conversion
 
-	updateurl: https://github.com/amsdams/iitc-plugins/blob/master/player-portals.user.js
+	updateurl: https://raw.github.com/amsdams/iitc-plugins/master/player-portals.user.js
 
-	dowloadurl: https://github.com/amsdams/iitc-plugins/blob/master/player-portals.user.js
+	dowloadurl: https://raw.github.com/amsdams/iitc-plugins/master/player-portals.user.js
 
 	description:    [local-2013-09-26-081348] highlights portals with mods, resonators from player
 
@@ -80,9 +80,9 @@
 
 	namespace: 	     https://github.com/jonatkins/ingress-intel-total-conversion
 
-	updateurl: https://github.com/amsdams/iitc-plugins/blob/master/portal-highlighter-missing-mods.user.js
+	updateurl: https://raw.github.com/amsdams/iitc-plugins/master/portal-highlighter-missing-mods.user.js
 
-	dowloadurl: https://github.com/amsdams/iitc-plugins/blob/master/portal-highlighter-missing-mods.user.js
+	dowloadurl: https://raw.github.com/amsdams/iitc-plugins/master/portal-highlighter-missing-mods.user.js
 
 	description:    [local-2013-09-26-081348] highlight portals missing mods 
 
@@ -114,9 +114,9 @@
 
 	namespace: 	     https://github.com/jonatkins/ingress-intel-total-conversion
 
-	updateurl: https://github.com/amsdams/iitc-plugins/blob/master/portal-highlighter-missing-resonators-level-8.user.js
+	updateurl: https://raw.github.com/amsdams/iitc-plugins/master/portal-highlighter-missing-resonators-level-8.user.js
 
-	dowloadurl: https://github.com/amsdams/iitc-plugins/blob/master/portal-highlighter-missing-resonators-level-8.user.js
+	dowloadurl: https://raw.github.com/amsdams/iitc-plugins/master/portal-highlighter-missing-resonators-level-8.user.js
 
 	description:    [local-2013-09-26-081348] highlight portals missing level 8 resonators
 
