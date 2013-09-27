@@ -2,11 +2,11 @@
 // @id             iitc-plugin-highlight-portals-missing-resonators-level-8@amsdams
 // @name           IITC plugin: highlight portals missing resonators level 8
 // @category       Highlighter
-// @version        0.1.2.20130926.81348
+// @version        0.1.3.20130927.121818
 // @namespace      https://github.com/jonatkins/ingress-intel-total-conversion
 // @updateURL https://raw.github.com/amsdams/iitc-plugins/master/portal-highlighter-missing-resonators-level-8.user.js
 // @downloadURL https://raw.github.com/amsdams/iitc-plugins/master/portal-highlighter-missing-resonators-level-8.user.js
-// @description    [local-2013-09-26-081348] highlight portals missing level 8 resonators
+// @description    [local-2013-09-27-121818] highlight portals missing level 8 resonators
 // @include        https://www.ingress.com/intel*
 // @include        http://www.ingress.com/intel*
 // @match          https://www.ingress.com/intel*
@@ -27,7 +27,7 @@ window.plugin.portalHighligherPortalsMissingResonatorsLevel8.PORTAL_FILL_COLOR='
 window.plugin.portalHighligherPortalsMissingResonatorsLevel8.PORTAL_FILL_OPACITY=0.7;
 
 window.plugin.portalHighligherPortalsMissingResonatorsLevel8.highlight = function (data, missing) {
-  var resos = data.portal.options.detailsd.resonatorArray.resonators,
+  var resos = data.portal.options.details.resonatorArray.resonators,
     countMissing = 0;
   $.each(resos, function (ind, reso) {
     if(!reso || reso.level !== window.MAX_PORTAL_LEVEL) {
