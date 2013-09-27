@@ -1,41 +1,136 @@
-ingress iitc-plugins 
-====================
+# coolclock.user.js
 
-player info 
-------------
+## description from JS:
 
-download &amp; install [IITC_plugin_player_info.user.js](./IITC_plugin_player_info.user.js "IITC_plugin_player_info.user.js") (click raw button).
+	id:             iitc-plugin-coolclock@amsdams
 
-this plugin will highlight and count resources deployed by player when clicked on playername. a dialog will pop with clickable commands in menu. resources like resonsators, mods, shields etc. see the screenshot of the dialog below.
+	name:           IITC plugin: coolclock
 
+	category:       Highlighter
 
-![screenshot of player info plugin for iitc](./IITC_plugin_player_info.user.png "screenshot of player info plugin for iitc")
+	version:        0.0.1.20130926.81348
 
+	namespace: 	     https://github.com/jonatkins/ingress-intel-total-conversion
 
-missing ressonators level 8 (highlighter)
-------------
+	updateurl: https://github.com/amsdams/iitc-plugins/blob/master/coolclock.user.js
 
-download &amp; install [IITC_plugin_highlight_portals_missing-resonators-level-8.user.js](./IITC_plugin_highlight_portals_missing-resonators-level-8.user.js "IITC_plugin_highlight_portals_missing-resonators-level-8.user.js") (click raw button).
+	dowloadurl: https://github.com/amsdams/iitc-plugins/blob/master/coolclock.user.js
 
-this plugin will highlight portals missing resonators with level 8
+	description:    [local-2013-09-26-081348] displays ticking clock 
 
+	include:        https://www.ingress.com/intel*
 
-missing mods (highlighter)
-------------
+	include:        http://www.ingress.com/intel*
 
-download &amp; install [IITC_plugin_highlight_portals_missing_mods.user.js](./IITC_plugin_highlight_portals_missing_mods.user.js "IITC_plugin_highlight_portals_missing_mods.user.js") (click raw button).
+	match:          https://www.ingress.com/intel*
 
-this plugin will highlight portals missing mods
+	match:          http://www.ingress.com/intel*
 
+	grant:           none
 
-coolclock 
-------------
+## install link: [coolclock.user.js](./coolclock.user.js "coolclock.user.js ")
 
-download &amp; install [IITC_plugin_coolclock.user.js](./IITC_plugin_coolclock.user.js "IITC_plugin_coolclock.user.js") (click raw button).
+## preview image: ![coolclock.user.png](./coolclock.user.png "coolclock.user.png ")
 
+# player-portals.user.js
 
-this plugin will display a clock with current time and date for current location on the map. a dialog will pop with the ticking clock. see the screenshot of the dialog below.
+## description from JS:
 
+	id:             iitc-plugin-player-portals@amsdams
 
-![screenshot of coolclock plugin for iitc](./IITC_plugin_coolclock.user.png "screenshot of coolclock plugin for iitc")
+	name:           IITC plugin: player portals
+
+	category:       Info
+
+	version:        0.1.1.20130926.81348
+
+	namespace: 	     https://github.com/jonatkins/ingress-intel-total-conversion
+
+	updateurl: https://github.com/amsdams/iitc-plugins/blob/master/player-portals.user.js
+
+	dowloadurl: https://github.com/amsdams/iitc-plugins/blob/master/player-portals.user.js
+
+	description:    [local-2013-09-26-081348] highlights portals with mods, resonators from player
+
+	include:        https://www.ingress.com/intel*
+
+	include:        http://www.ingress.com/intel*
+
+	match:          https://www.ingress.com/intel*
+
+	match:          http://www.ingress.com/intel*
+
+	grant:           none
+
+## install link: [player-portals.user.js](./player-portals.user.js "player-portals.user.js ")
+
+## preview image: ![player-portals.user.png](./player-portals.user.png "player-portals.user.png ")
+
+# portal-highlighter-missing-mods.user.js
+
+## description from JS:
+
+	id:             iitc-plugin-highlight-portals-missing-mods@amsdams
+
+	name:           IITC plugin: highlight portals missing mods
+
+	category:       Highlighter
+
+	version:        0.1.2.20130926.81348
+
+	namespace: 	     https://github.com/jonatkins/ingress-intel-total-conversion
+
+	updateurl: https://github.com/amsdams/iitc-plugins/blob/master/portal-highlighter-missing-mods.user.js
+
+	dowloadurl: https://github.com/amsdams/iitc-plugins/blob/master/portal-highlighter-missing-mods.user.js
+
+	description:    [local-2013-09-26-081348] highlight portals missing mods 
+
+	include:        https://www.ingress.com/intel*
+
+	include:        http://www.ingress.com/intel*
+
+	match:          https://www.ingress.com/intel*
+
+	match:          http://www.ingress.com/intel*
+
+	grant:           none
+
+## install link: [portal-highlighter-missing-mods.user.js](./portal-highlighter-missing-mods.user.js "portal-highlighter-missing-mods.user.js ")
+
+## preview image: ![portal-highlighter-missing-mods.user.png](./portal-highlighter-missing-mods.user.png "portal-highlighter-missing-mods.user.png ")
+
+# portal-highlighter-missing-resonators-level-8.user.js
+
+## description from JS:
+
+	id:             iitc-plugin-highlight-portals-missing-resonators-level-8@amsdams
+
+	name:           IITC plugin: highlight portals missing resonators level 8
+
+	category:       Highlighter
+
+	version:        0.1.2.20130926.81348
+
+	namespace: 	     https://github.com/jonatkins/ingress-intel-total-conversion
+
+	updateurl: https://github.com/amsdams/iitc-plugins/blob/master/portal-highlighter-missing-resonators-level-8.user.js
+
+	dowloadurl: https://github.com/amsdams/iitc-plugins/blob/master/portal-highlighter-missing-resonators-level-8.user.js
+
+	description:    [local-2013-09-26-081348] highlight portals missing level 8 resonators
+
+	include:        https://www.ingress.com/intel*
+
+	include:        http://www.ingress.com/intel*
+
+	match:          https://www.ingress.com/intel*
+
+	match:          http://www.ingress.com/intel*
+
+	grant:           none
+
+## install link: [portal-highlighter-missing-resonators-level-8.user.js](./portal-highlighter-missing-resonators-level-8.user.js "portal-highlighter-missing-resonators-level-8.user.js ")
+
+## preview image: ![portal-highlighter-missing-resonators-level-8.user.png](./portal-highlighter-missing-resonators-level-8.user.png "portal-highlighter-missing-resonators-level-8.user.png ")
 

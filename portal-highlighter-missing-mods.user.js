@@ -4,8 +4,8 @@
 // @category       Highlighter
 // @version        0.1.2.20130926.81348
 // @namespace      https://github.com/jonatkins/ingress-intel-total-conversion
-// @updateURL      none
-// @downloadURL    none
+// @updateURL https://github.com/amsdams/iitc-plugins/blob/master/portal-highlighter-missing-mods.user.js
+// @downloadURL https://github.com/amsdams/iitc-plugins/blob/master/portal-highlighter-missing-mods.user.js
 // @description    [local-2013-09-26-081348] highlight portals missing mods 
 // @include        https://www.ingress.com/intel*
 // @include        http://www.ingress.com/intel*
